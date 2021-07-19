@@ -45,6 +45,13 @@
 
 .listItem {
   margin: 0 0 1.25rem;
+  border-radius: 5px;
+  box-shadow: 3px 2px 3px 2px #91919133;
+  padding: 10px;
+  transition: ease-in-out 500ms;
+}
+.listItem:hover {
+  transform: scale(1.05);
 }
 
 .lightText {
